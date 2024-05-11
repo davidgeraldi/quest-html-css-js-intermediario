@@ -29,7 +29,9 @@
     }
 
     .painel .formulario .duvida{
-        padding: 20px;
+        width: 365px;
+        padding:20px;
+        margin-top: 0;
         align-self: center;
     }
     .painel .formulario .duvida .titulo{
@@ -40,6 +42,7 @@
     }
 
     .painel .formulario .informacoes{
+        margin-top: 20px;
         width: 350px;
         height: 550px;
         padding: 25px;
@@ -56,6 +59,4 @@
     .informacoes .botao-enviar{
         margin-top: 25px;
     }
-
-
 }
