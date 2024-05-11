@@ -12,14 +12,14 @@
     display: flex;
     height: 100%;
     align-items: center;
-    gap: 180px;
+    justify-content: center;
+    gap: 150px;
 }
 
 .painel .formulario .duvida{
     max-width: 500px;
     max-height: 111px;
     color: #fff;
-    margin-left: 100px;
 }
 
 .painel .formulario .duvida .titulo{
@@ -33,15 +33,15 @@
 }
 
 .painel .formulario .informacoes{
-    width: 600px;
-    height: 700px;
+    width: 500px;
+    height: 600px;
     background-color: #fff;
     border: 2px solid #000;
     padding: 40px;
 }
 
 .blocos {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .bloco{
@@ -72,7 +72,6 @@ input[type=number]::-webkit-inner-spin-button {
 
 .informacoes .aviso {
     font-size: 18px;
-    margin-bottom: 35px;
 }
 
 .informacoes .botao-enviar {
@@ -84,6 +83,8 @@ input[type=number]::-webkit-inner-spin-button {
     width: 100%;
     font-size: 17px;
     font-weight: 700;
+    cursor: pointer;
+    margin-top: 40px;
 }
 
 /*classes para adicionar no js*/
@@ -93,5 +94,8 @@ input[type=number]::-webkit-inner-spin-button {
 
 .campo-vazio {
     border: 2px solid #f52e2e;
+}
+.blocos .alerta.ativado{
+    display: flex;
 }
 
