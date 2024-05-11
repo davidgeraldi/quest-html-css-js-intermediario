@@ -1,0 +1,61 @@
+@media(max-width: 1200px){
+    .painel .formulario{
+        gap: 30px;
+        padding: 20px;
+    }
+    .painel .formulario .duvida{
+        width: 450px;
+        align-self: flex-start;
+        margin-top: 110px;
+    }
+
+    .painel .formulario .duvida .titulo{
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+
+    .painel .formulario .duvida .texto{
+        font-size: 22px;
+    }
+}
+
+
+
+@media(max-width: 900px){
+    .painel .formulario{
+        flex-direction: column;
+        text-align: center;
+        gap: 80px;
+    }
+
+    .painel .formulario .duvida{
+        padding: 20px;
+        align-self: center;
+    }
+    .painel .formulario .duvida .titulo{
+        font-size: 22px;
+    }
+    .painel .formulario .duvida .texto{
+        font-size: 18px;
+    }
+
+    .painel .formulario .informacoes{
+        width: 350px;
+        height: 550px;
+        padding: 25px;
+    }
+
+    #mensagem{
+        height: 125px;
+    }
+
+    .informacoes .aviso{
+        text-align: left;
+    }
+
+    .informacoes .botao-enviar{
+        margin-top: 25px;
+    }
+
+
+}
