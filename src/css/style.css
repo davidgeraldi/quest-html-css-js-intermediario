@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+.painel{
+    height: 100vh;
+    background-image: url(../img/bg-repeat.jpg);
+    background-size: contain;
+    font-family: Roboto, sans-serif;
+}
+
+.painel .formulario{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    gap: 180px;
+}
+
+.painel .formulario .duvida{
+    max-width: 500px;
+    max-height: 111px;
+    color: #fff;
+    margin-left: 100px;
+}
+
+.painel .formulario .duvida .titulo{
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 11px;
+}
+
+.painel .formulario .duvida .texto {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.painel .formulario .informacoes{
+    width: 600px;
+    height: 700px;
+    background-color: #fff;
+    border: 2px solid #000;
+    padding: 40px;
+}
+.blocos{
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 12px 15px;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+#mensagem{
+    height: 150px;
+    resize: none;
+} 
+
