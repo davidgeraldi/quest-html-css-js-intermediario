@@ -5,6 +5,7 @@
     background-image: url(../img/bg-repeat.jpg);
     background-size: contain;
     font-family: Roboto, sans-serif;
+    font-weight: 400;
 }
 
 .painel .formulario{
@@ -29,7 +30,6 @@
 
 .painel .formulario .duvida .texto {
     font-size: 25px;
-    font-weight: 400;
 }
 
 .painel .formulario .informacoes{
@@ -39,14 +39,20 @@
     border: 2px solid #000;
     padding: 40px;
 }
-.blocos{
-    border: 2px solid #000;
+
+.blocos {
+    margin-bottom: 30px;
+}
+
+.bloco{
+    border: 1px solid #000;
     border-radius: 5px;
     padding: 12px 15px;
     width: 100%;
     height: 40px;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 700;
+    font-family: Roboto;
 }
 
 input[type=number]::-webkit-inner-spin-button {
@@ -56,5 +62,36 @@ input[type=number]::-webkit-inner-spin-button {
 #mensagem{
     height: 150px;
     resize: none;
-} 
+}
+
+.informacoes .alerta{
+    color: #f52e2e;
+    font-size: 10px;
+    display: none;
+}
+
+.informacoes .aviso {
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.informacoes .botao-enviar {
+    background-color: #3ccc87;
+    color: #fff;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+/*classes para adicionar no js*/
+.ativo {
+    border: 2px solid #00c22b;
+}
+
+.campo-vazio {
+    border: 2px solid #f52e2e;
+}
 

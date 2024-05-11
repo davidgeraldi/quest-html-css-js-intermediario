@@ -17,21 +17,29 @@
             </div>
 
             <div class="informacoes">
-                <input type="text" placeholder="Nome Completo *" class="blocos">
-                <legend>campo obrigatório</legend>
+                <div class="blocos nome">
+                    <input type="text" placeholder="Nome Completo *" class="bloco">
+                    <p class="alerta">campo obrigatório</p>
+                </div>
 
-                <input type="text" placeholder="Email *" class="blocos">
-                <legend>campo obrigatório</legend>
+                <div class="blocos email">
+                    <input type="text" placeholder="Email *" class="bloco">
+                    <p class="alerta">campo obrigatório</p>
+                </div>
                 
-                <input type="number" name="telefone" id="telefone" placeholder="Telefone *" class="blocos">
-                <legend>campo obrigatório</legend>
+                <div class="blocos telefone">
+                    <input type="number" name="telefone" id="telefone" placeholder="Telefone *" class="bloco">
+                    <p class="alerta">campo obrigatório</p>
+                </div>
                 
-                <textarea name="mensagem"id="mensagem" placeholder="Mensagem *" class="blocos"></textarea>
-                <legend>campo obrigatório</legend>
+                <div class="blocos mensagem">
+                    <textarea name="mensagem"id="mensagem" placeholder="Mensagem *" class="bloco"></textarea>
+                    <p class="alerta">campo obrigatório</p>
+                </div>
                 
-                <p>*campos obrigatórios</p>
+                <p class="aviso">*campos obrigatórios</p>
                 
-                <input type="submit" value="Enviar" class="blocos">
+                <input type="submit" value="Enviar" class="botao-enviar">
             </div>
         </section>
     </main>
