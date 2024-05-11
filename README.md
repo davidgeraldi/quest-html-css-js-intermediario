@@ -11,11 +11,11 @@ Layout da página ao ser carregada:
 
 <img src="src/img/desktop-design-quest-html-css-js.png">
 
-## Layout em caso de todos os campos compeltos por texto:
+## Layout em caso de todos os campos completos por texto ao clicar em enviar:
 
 <img src="src/img/tudo-preenchido-html-css-js.png">
 
-## Layout em caso algum campo obrigatório não seja preenchido:
+## Layout em caso algum campo obrigatório não seja preenchido ao clicar em enviar:
 
 <img src="src/img/efeito-alerta-html-css-js.png">
 
