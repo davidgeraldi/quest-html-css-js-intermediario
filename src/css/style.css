@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 
-.painel{
+.painel {
     height: 100vh;
     background-image: url(../img/bg-repeat.jpg);
     background-size: contain;
@@ -8,21 +8,21 @@
     font-weight: 400;
 }
 
-.painel .formulario{
+.painel .formulario {
     display: flex;
     height: 100%;
     align-items: center;
     justify-content: center;
-    gap: 150px;
+    gap: 230px;
 }
 
-.painel .formulario .duvida{
+.painel .formulario .duvida {
     max-width: 500px;
     max-height: 111px;
     color: #fff;
 }
 
-.painel .formulario .duvida .titulo{
+.painel .formulario .duvida .titulo {
     font-size: 30px;
     font-weight: 900;
     margin-bottom: 11px;
@@ -32,7 +32,7 @@
     font-size: 25px;
 }
 
-.painel .formulario .informacoes{
+.painel .formulario .informacoes {
     width: 500px;
     height: 600px;
     background-color: #fff;
@@ -44,7 +44,7 @@
     margin-bottom: 25px;
 }
 
-.bloco{
+.bloco {
     border: 1px solid #000;
     border-radius: 5px;
     padding: 12px 15px;
@@ -59,12 +59,12 @@ input[type=number]::-webkit-inner-spin-button {
     -webkit-appearance: none;
 }
 
-#mensagem{
+#mensagem {
     height: 150px;
     resize: none;
 }
 
-.informacoes .alerta{
+.informacoes .alerta {
     color: #f52e2e;
     font-size: 10px;
     display: none;
@@ -95,7 +95,7 @@ input[type=number]::-webkit-inner-spin-button {
 .campo-vazio {
     border: 2px solid #f52e2e;
 }
-.blocos .alerta.ativado{
+
+.blocos .alerta.ativado {
     display: flex;
 }
-
